@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://www.failurefreeonline.com/speedygram/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>SpeedyGram</title>
+        <vendor>lnewby</vendor>
+        <homepage href=""/>
+        <description>SpeedyGram</description>
+        <description kind="short">SpeedyGram</description>
+    <icon href="books.png" kind="default"/>
+</information>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.5+"/>
+<jar eager="true" href="SpeedyGram.jar" main="true"/>
+    </resources>
+    <application-desc main-class="speedygram.splashScreen">
+    </application-desc>
+</jnlp>
